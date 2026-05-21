@@ -14,7 +14,7 @@ This lab demonstrates how to host a publicly accessible static website using an 
 ## Final Output
 The live static website hosted and served directly via the S3 website endpoint:
 
-![Final Website Launch](images/website-launch.jpg)
+![Final Website Launch](final-web-output.png)
 
 ---
 
@@ -23,7 +23,7 @@ The live static website hosted and served directly via the S3 website endpoint:
 ### Step 1: Upload Assets
 * Created the S3 bucket and uploaded all web files (`web.html`, `style.css`, and images) into the root directory.
 
-![S3 Objects](images/s3-objects-list.png)
+![S3 Objects](s3-bucket-objects.png)
 
 ### Step 2: Enable Static Website Hosting
 * Enabled **Static website hosting** under the **Properties** tab and set `web.html` as the index document.
